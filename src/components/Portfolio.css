@@ -27,7 +27,7 @@
 
 .filter-btn:hover,
 .filter-btn.active {
-    color: white;
+    color: var(--color-text-dark);
     background-color: var(--color-accent);
 }
 
