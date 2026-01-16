@@ -21,13 +21,13 @@ const Footer = () => {
                 <div className="container">
                     <div className="footer-grid">
                         <div className="footer-col">
-                            <h3>Cuddles & Captures</h3>
+                            <h3>cuddlesncapture</h3>
                             <p>Capturing the magic of childhood, one click at a time.</p>
                         </div>
 
                         <div className="footer-col">
                             <h4>Contact</h4>
-                            <a href="mailto:hello@cuddlesncaptures.com" className="footer-link"><Mail size={16} /> hello@cuddlesncaptures.com</a>
+                            <a href="mailto:hello@cuddlesncapture.com" className="footer-link"><Mail size={16} /> hello@cuddlesncapture.com</a>
                             <a href="tel:+918110969489" className="footer-link"><Phone size={16} /> +91 8110969489</a>
                         </div>
 
@@ -38,7 +38,7 @@ const Footer = () => {
                     </div>
 
                     <div className="footer-bottom">
-                        <p>&copy; {new Date().getFullYear()} Cuddles & Captures Photography. All rights reserved.</p>
+                        <p>&copy; {new Date().getFullYear()} cuddlesncapture Photography. All rights reserved.</p>
                     </div>
                 </div>
             </div>

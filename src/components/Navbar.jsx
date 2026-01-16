@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="container navbar-content">
         <a href="#" className="logo">
           <Camera size={24} className="logo-icon" />
-          <span>Cuddles & Captures</span>
+          <span>cuddlesncapture</span>
         </a>
 
         {/* Desktop Menu */}
