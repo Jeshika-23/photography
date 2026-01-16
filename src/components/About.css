@@ -16,13 +16,14 @@
 
 .about-image img {
     width: 100%;
-    border-radius: 2px;
-    filter: grayscale(20%);
-    transition: filter 0.5s ease;
+    border-radius: var(--radius-sm);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+    /* Soft shadow */
+    transition: transform 0.5s ease;
 }
 
 .about-image:hover img {
-    filter: grayscale(0%);
+    transform: translateY(-5px);
 }
 
 .section-label {
@@ -30,7 +31,8 @@
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-    color: var(--color-text-muted);
+    color: var(--color-accent);
+    /* Accent color for label */
     margin-bottom: 1.5rem;
     display: block;
 }
@@ -39,24 +41,25 @@
     font-family: var(--font-heading);
     font-size: 3rem;
     margin-bottom: 2rem;
-    color: var(--color-text);
+    color: var(--color-text-dark);
     line-height: 1.2;
 }
 
 .about-text {
     font-size: 1.1rem;
-    color: #c0c0c0;
+    color: var(--color-text);
+    /* Darker text for readability */
     margin-bottom: 2rem;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.8;
 }
 
 .signature {
-    font-family: 'Playfair Display', serif;
-    /* Use a handwriting font if imported, otherwise serif */
+    font-family: var(--font-heading);
     font-style: italic;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 2rem;
+    color: var(--color-text-dark);
 }
 
 @media (max-width: 900px) {

@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import { X } from 'lucide-react';
 import './Portfolio.css';
 
-const categories = ["All", "Weddings", "Portraits", "Travel", "Events"];
+const categories = ["All", "Newborn", "Milestones", "Toddler", "Family"];
 
 // Placeholder data - in a real app, this would be imported or fetched
 const portfolioItems = [
-    { id: 1, category: "Weddings", src: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2670&auto=format&fit=crop", title: "Eternal Vows" },
-    { id: 2, category: "Portraits", src: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=2550&auto=format&fit=crop", title: "Grace" },
-    { id: 3, category: "Travel", src: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=2670&auto=format&fit=crop", title: "Swiss Alps" },
-    { id: 4, category: "Events", src: "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2669&auto=format&fit=crop", title: "Gala Night" },
-    { id: 5, category: "Weddings", src: "https://images.unsplash.com/photo-1511285560982-1351cdeb9821?q=80&w=2536&auto=format&fit=crop", title: "The First Dance" },
-    { id: 6, category: "Portraits", src: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=2564&auto=format&fit=crop", title: "Urban Soul" },
+    { id: 1, category: "Newborn", src: "https://images.unsplash.com/photo-1544126566-47535b6c31bf?q=80&w=2670&auto=format&fit=crop", title: "Baby Leo" },
+    { id: 2, category: "Questions", src: "https://images.unsplash.com/photo-1602631985686-1bb0e6a8696e?q=80&w=2670&auto=format&fit=crop", title: "First Steps" },
+    { id: 3, category: "Family", src: "https://images.unsplash.com/photo-1609220136736-443140cffec6?q=80&w=2670&auto=format&fit=crop", title: "The Smiths" },
+    { id: 4, category: "Toddler", src: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=2541&auto=format&fit=crop", title: "Joyful Play" },
+    { id: 5, category: "Newborn", src: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?q=80&w=2670&auto=format&fit=crop", title: "Sleeping Angel" },
+    { id: 6, category: "Milestones", src: "https://images.unsplash.com/photo-1519340241574-2cec6aef0c01?q=80&w=2664&auto=format&fit=crop", title: "First Birthday" },
 ];
 
 const Portfolio = () => {

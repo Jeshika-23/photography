@@ -1,5 +1,6 @@
 .footer-section {
     background-color: var(--color-surface);
+    /* Beige */
 }
 
 .footer-cta {
@@ -11,12 +12,29 @@
     font-size: 3.5rem;
     margin-bottom: 3rem;
     line-height: 1.1;
+    color: var(--color-text-dark);
 }
 
 .cta-actions {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
+}
+
+.btn-secondary-dark {
+    padding: 0.8rem 1.8rem;
+    background-color: transparent;
+    color: var(--color-text-dark);
+    border: 1px solid var(--color-text-dark);
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: var(--radius-lg);
+    transition: all 0.3s ease;
+}
+
+.btn-secondary-dark:hover {
+    background-color: var(--color-text-dark);
+    color: white;
 }
 
 .footer-content {
@@ -33,19 +51,20 @@
 .footer-col h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
+    color: var(--color-text-dark);
 }
 
 .footer-col h4 {
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: var(--color-text-muted);
+    color: var(--color-accent);
     margin-bottom: 1.5rem;
 }
 
 .footer-col p {
-    color: var(--color-text-muted);
+    color: var(--color-text);
     font-size: 0.95rem;
 }
 

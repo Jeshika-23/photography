@@ -4,21 +4,21 @@ import './Testimonials.css';
 const testimonials = [
     {
         id: 1,
-        text: "Alex has an incredible eye for detail. The photos from our wedding were absolutely breathtaking. He captured moments we didn't even know happened.",
-        author: "Sarah & James",
-        role: "Wedding Client"
+        text: "Alex was so patient with our newborn. She made us feel completely at ease and safety was her top priority. The photos are pure magic.",
+        author: "Emily & Mark",
+        role: "Newborn Session"
     },
     {
         id: 2,
-        text: "Professional, creative, and fun to work with. The portraits for my personal brand standout and have received so many compliments.",
-        author: "Elena R.",
-        role: "Brand Portfolio"
+        text: "I was worried my toddler wouldn't sit still, but Alex turned it into a fun game! We have the most beautiful, natural smiles captured forever.",
+        author: "Jessica T.",
+        role: "Toddler Portraits"
     },
     {
         id: 3,
-        text: "The best investment we made for our event. The atmospheric shots are exactly what we wanted. Highly recommended!",
-        author: "Marcus T.",
-        role: "Event Organizer"
+        text: "We cry happy tears every time we look at our family album. These aren't just photos, they are our most precious memories.",
+        author: "The Parker Family",
+        role: "Family Session"
     }
 ];
 

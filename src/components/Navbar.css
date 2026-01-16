@@ -6,13 +6,14 @@
     z-index: 1000;
     padding: 1.5rem 0;
     transition: all 0.4s ease;
+    color: var(--color-text-dark);
 }
 
 .navbar.scrolled {
-    background: rgba(10, 10, 10, 0.8);
+    background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     padding: 1rem 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
 }
 
 .navbar-content {
@@ -27,58 +28,52 @@
     gap: 0.5rem;
     font-family: var(--font-heading);
     font-size: 1.5rem;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.02em;
     font-weight: 600;
+    color: var(--color-text-dark);
+}
+
+.logo-icon {
+    color: var(--color-accent);
 }
 
 .desktop-menu {
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 2.5rem;
 }
 
 .nav-link {
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--color-text);
     position: relative;
 }
 
-.nav-link::after {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 0;
-    height: 1px;
-    background-color: var(--color-accent);
-    transition: width 0.3s ease;
-}
-
-.nav-link:hover::after {
-    width: 100%;
+.nav-link:hover {
+    color: var(--color-accent);
 }
 
 .btn-primary {
-    padding: 0.8rem 1.5rem;
-    background-color: var(--color-text);
-    color: var(--color-bg);
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-weight: 500;
-    transition: transform 0.3s ease, background-color 0.3s ease;
+    padding: 0.8rem 1.8rem;
+    background-color: var(--color-accent);
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 4px 15px rgba(212, 163, 115, 0.3);
+    transition: all 0.3s ease;
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    background-color: white;
-    opacity: 1;
+    background-color: #c59265;
+    box-shadow: 0 6px 20px rgba(212, 163, 115, 0.4);
 }
 
 .mobile-toggle {
     display: none;
-    color: white;
+    color: var(--color-text-dark);
 }
 
 .mobile-menu {
@@ -99,7 +94,7 @@
 .mobile-menu a {
     font-family: var(--font-heading);
     font-size: 2rem;
-    color: var(--color-text);
+    color: var(--color-text-dark);
 }
 
 @media (max-width: 768px) {

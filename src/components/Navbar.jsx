@@ -19,15 +19,15 @@ const Navbar = () => {
       <div className="container navbar-content">
         <a href="#" className="logo">
           <Camera size={24} className="logo-icon" />
-          <span>LUMIÈRE</span>
+          <span>Cuddles & Captures</span>
         </a>
 
         {/* Desktop Menu */}
         <div className="desktop-menu">
           <a href="#about" className="nav-link">About</a>
-          <a href="#portfolio" className="nav-link">Portfolio</a>
-          <a href="#testimonials" className="nav-link">Stories</a>
-          <a href="#contact" className="btn-primary">Book Now</a>
+          <a href="#portfolio" className="nav-link">Gallery</a>
+          <a href="#testimonials" className="nav-link">Love Notes</a>
+          <a href="#contact" className="btn-primary">Book a Baby Shoot</a>
         </div>
 
         {/* Mobile Toggle */}

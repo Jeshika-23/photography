@@ -8,10 +8,10 @@ const Footer = () => {
             {/* CTA Section */}
             <div className="footer-cta">
                 <div className="container text-center">
-                    <h2 className="cta-title">Let’s Creating Something <br /><span className="italic">Unforgettable</span> Together</h2>
+                    <h2 className="cta-title">Because They Grow <br /><span className="italic">Too Fast</span></h2>
                     <div className="cta-actions">
-                        <a href="mailto:hello@example.com" className="btn-primary">Get in Touch</a>
-                        <a href="https://instagram.com" className="btn-secondary">Follow on Instagram</a>
+                        <a href="mailto:hello@cuddlesncaptures.com" className="btn-primary">Book Your Session</a>
+                        <a href="https://instagram.com" className="btn-secondary-dark">Follow on Instagram</a>
                     </div>
                 </div>
             </div>
@@ -21,13 +21,13 @@ const Footer = () => {
                 <div className="container">
                     <div className="footer-grid">
                         <div className="footer-col">
-                            <h3>LUMIÈRE</h3>
-                            <p>Premium photography for timeless moments.</p>
+                            <h3>Cuddles & Captures</h3>
+                            <p>Capturing the magic of childhood, one click at a time.</p>
                         </div>
 
                         <div className="footer-col">
                             <h4>Contact</h4>
-                            <a href="mailto:info@lumiere.com" className="footer-link"><Mail size={16} /> info@lumiere.com</a>
+                            <a href="mailto:hello@cuddlesncaptures.com" className="footer-link"><Mail size={16} /> hello@cuddlesncaptures.com</a>
                             <a href="tel:+918110969489" className="footer-link"><Phone size={16} /> +91 8110969489</a>
                         </div>
 
@@ -38,7 +38,7 @@ const Footer = () => {
                     </div>
 
                     <div className="footer-bottom">
-                        <p>&copy; {new Date().getFullYear()} Lumière Photography. All rights reserved.</p>
+                        <p>&copy; {new Date().getFullYear()} Cuddles & Captures Photography. All rights reserved.</p>
                     </div>
                 </div>
             </div>

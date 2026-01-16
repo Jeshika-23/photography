@@ -8,21 +8,20 @@ const About = () => {
                 <div className="about-grid">
                     <div className="about-image">
                         <img
-                            src="https://images.unsplash.com/photo-1554048612-387768052bf7?q=80&w=2535&auto=format&fit=crop"
-                            alt="Photographer Portrait"
+                            src="https://images.unsplash.com/photo-1544126566-47535b6c31bf?q=80&w=2670&auto=format&fit=crop"
+                            alt="Baby Photographer"
                         />
                     </div>
                     <div className="about-content">
-                        <h4 className="section-label">About Me</h4>
-                        <h2 className="section-title">Visual Storyteller & <br /> <span className="italic">Memory Keeper</span></h2>
+                        <h4 className="section-label">Hello There</h4>
+                        <h2 className="section-title">Capturing <span className="italic">Little</span> Miracles</h2>
                         <p className="about-text">
-                            I believe that photography is more than just clicking a button—it’s about freezing time.
-                            With over 10 years of experience behind the lens, I specialize in capturing raw, authentic emotions
-                            that tell your unique story.
+                            Hello! I’m Alex. As a mother and a photographer, I know how fast these precious moments fly by.
+                            My studio is designed to be a safe, warm haven where you and your little one can relax.
                         </p>
                         <p className="about-text">
-                            My style is minimal, cinematic, and deeply personal. Whether it's a grand wedding or an
-                            intimate portrait session, I strive to create art that you will cherish forever.
+                            With specialized training in newborn safety and posing, I handle your baby with the utmost care and patience.
+                            Let’s create beautiful, timeless portraits that you’ll cherish as they grow.
                         </p>
                         <div className="signature">
                             <p>Alex Morgan</p>
